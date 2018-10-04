@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    padding: 0
+}
+
 header, footer {
     background-color: rgb(238, 14, 152);
     font-family: 'Leckerli One', cursive;
@@ -5,11 +10,15 @@ header, footer {
     padding: 10px;
 }
 
-main {
+#container {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    margin: 30px 5px ;
+    justify-content: space-around;
+}
+
+#intro {
+    padding: 5px;
 }
 
 img {
@@ -25,15 +34,15 @@ img {
 }
 
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 450px) {
     .item {
-        width: 50%;
+        width: 45%;
     }
 }
 
 @media screen and (min-width: 600px) {
     .item {
-        width: 33.3%;
+        width: 30%;
     }
 }
 
