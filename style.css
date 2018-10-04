@@ -1,12 +1,15 @@
 header, footer {
     background-color: rgb(238, 14, 152);
+    font-family: 'Leckerli One', cursive;
     color: white;
+    padding: 10px;
 }
 
 main {
     display: flex;
     flex-wrap: wrap;
-    width: 100%
+    width: 100%;
+    margin: 30px 5px ;
 }
 
 img {
